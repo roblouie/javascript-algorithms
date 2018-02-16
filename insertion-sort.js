@@ -7,7 +7,7 @@ function insertionSort(array) {
   for(let i = 1; i < array.length; i++) {
     const itemToSort = array[i];
 
-    for(var j = i - 1; j >= 0 && array[j] > itemToSort; j--) {
+    for(let j = i - 1; j >= 0 && array[j] > itemToSort; j--) {
       array[j+1] = array[j];
     }
 
